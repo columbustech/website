@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: columbustech-website
+spec:
+  selector:
+    matchLabels:
+      name: columbustech-website
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: columbustech-website
+    spec:
+      containers:
+        - name: ccolumbustech-website
+          image: "docker.io/columbustech/columbustech-website:latest"

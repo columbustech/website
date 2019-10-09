@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: columbustech-website
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    certmanager.k8s.io/cluster-issuer: letsencrypt-staging
+    kubernetes.io/tls-acme: “true”
+    nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+spec:
+  rules:
+  - host: columbustech.io
+    http:
+      paths: 
+      - path: /
+        backend:
+          serviceName: columbustech-website
+          servicePort: 3000
+  tls:
+  - secretName: tls-columbus-tech-cert
+    hosts:
+    - columbustech.io
