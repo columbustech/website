@@ -25,17 +25,11 @@ class AppStore extends React.Component {
               </thead>
               <tbody>
                 <tr>
-                  <td rowspan="4">Browsing and Profiling</td>
+                  <td rowspan="3">Browsing and Profiling</td>
                   <td>Table Browser</td>
                   <td>Browse a table Google Map Style</td>
                   <td>Open Source</td>
                   <td><a className="btn-link" href="https://hub.docker.com/r/kaushikc92/tablebrowser">Available</a></td>
-                </tr>
-                <tr>
-                  <td>{"String"} Attribute Profiler</td>
-                  <td>Profile a set of strings (the values of an attribute of string type)</td>
-                  <td>Open Source</td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>Table Profiler</td>
@@ -54,7 +48,7 @@ class AppStore extends React.Component {
                   <td>SQL Querier</td>
                   <td>Query CDrive data {"in"} place {"in"} SQL</td>
                   <td>Open source</td>
-                  <td><a className="btn-link" href="https://hub.docker.com/r/kaushikc92/athena-query">Available</a></td>
+                  <td><a className="btn-link" href="https://hub.docker.com/r/columbustech/sql-querier">Available</a></td>
                 </tr>
                 <tr>
                   <td>Poly Querier</td>
@@ -64,10 +58,10 @@ class AppStore extends React.Component {
                 </tr>
                 <tr>
                   <td rowspan="3">Cleaning</td>
-                  <td>{"String"} Attribute Profiler</td>
-                  <td>Normalize a set of strings</td>
+                  <td>{"String"} Prepper</td>
+                  <td>Profile and normalize a set of strings</td>
                   <td>Open source</td>
-                  <td></td>
+                  <td><a className="btn-link" href="https://hub.docker.com/r/columbustech/string-prepper">Available</a></td>
                 </tr>
                 <tr>
                   <td>Value Normalizer</td>

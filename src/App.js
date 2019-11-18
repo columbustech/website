@@ -20,7 +20,7 @@ class App extends React.Component {
             The Columbus Ecosystem of Data Solutions
           </h1>
           <h3 className="mt-4">
-            A cloud-based extension of PyData
+            A PaaS solution {"for"} data exploration, cleaning and integration
           </h3>
           <a className="btn btn-primary mt-3" href="https://www.github.com/columbustech/cdrive">
             Browse Source Code
@@ -29,7 +29,7 @@ class App extends React.Component {
         <div className="body-div" >
           <div className="content mb-4">
             <h3>
-              Columbus is a scalable, collaborative, cloud-{"native"}, customizable solution {"for"} all your data cleaning and integration needs.
+              Columbus is a scalable, collaborative, cloud-{"native"} and programming language agnostic extension of the PyData ecosystem. 
             </h3>
           </div>
           <div className="content">
@@ -209,6 +209,9 @@ class App extends React.Component {
                     AnHai Doan
                   </li>
                   <li>
+                    Yash Govind
+                  </li>
+                  <li>
                     Amanpreet Singh Saini
                   </li>
                 </ul>
@@ -218,6 +221,9 @@ class App extends React.Component {
                 <ul>
                   <li>
                     Mourrad Ouzzani
+                  </li>
+                  <li>
+                    Abdulhakim Qahtan
                   </li>
                   <li>
                     Nan Tang
