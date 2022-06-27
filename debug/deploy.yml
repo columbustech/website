@@ -13,5 +13,5 @@ spec:
         name: columbustech-website
     spec:
       containers:
-        - name: ccolumbustech-website
+        - name: columbustech-website
           image: "docker.io/columbustech/columbustech-website:latest"
